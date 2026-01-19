@@ -26,7 +26,7 @@ This project is a simple Java-based HTTP server that serves random motivational 
  1. Clone the repository:
 
 ```bash
-git clone https://github.com/LondheShubham153/java-quotes-app.git
+git clone https://github.com/dsusmit63/java-quotes-app.git
 cd java-quotes-app
 
 ```
