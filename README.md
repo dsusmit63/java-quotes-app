@@ -44,15 +44,21 @@ java -cp out Main
 3. The server will start on  http://localhost:8000
 
 ### Running With Docker
-1. Build the docker image:
+
+1. Clone the repository:
+```bash
+git clone https://github.com/dsusmit63/java-quotes-app.git
+cd java-quotes-app
+```
+2. Build the docker image:
 ```bash
 docker build -t java-quotes-app:latest .
 ```
-2. Run the container:
+3. Run the container:
 ```bash
 docker run -d -p 8000:8000 --name java-quotes-app java-quotes-app:latest
 ```
-3. Access the application at  http://localhost:8000
+4. Access the application at  http://localhost:8000
 
 ## Customize Quotes
 To customize the quotes, edit quotes.txt and restart the application (or rebuild container if using docker).Each quote 
