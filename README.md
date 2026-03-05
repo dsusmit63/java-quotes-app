@@ -52,7 +52,9 @@ cd java-quotes-app
 ```
 2. Build the docker image:
 ```bash
-docker build -t java-quotes-app:latest .
+docker build -t java-quotes-app:latest .                             ### Build Docker Image using Dockerfile
+or
+docker build -f Dockerfile.multistage -t java-quotes-app:latest .    ### Build Docker Image using Multistage Dockerfile
 ```
 3. Run the container:
 ```bash
